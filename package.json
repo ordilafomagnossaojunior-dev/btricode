@@ -2,11 +2,12 @@
   "name": "btricode",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",
@@ -24,8 +25,8 @@
     "lucide-react": "^0.542.0",
     "mqtt": "^5.14.0",
     "next": "15.5.2",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-hook-form": "^7.62.0",
     "react-parallax-tilt": "^1.7.307",
     "resend": "^6.0.2",
@@ -33,15 +34,16 @@
     "zod": "^4.1.5"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@eslint/eslintrc": "^3.1.0",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.10.0",
     "eslint-config-next": "15.5.2",
-    "tailwindcss": "^4",
+    "tailwindcss": "^4.0.0",
     "tw-animate-css": "^1.3.7",
-    "typescript": "^5"
+    "typescript": "^5.5.4"
   }
 }
+
