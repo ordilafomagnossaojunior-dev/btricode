@@ -16,7 +16,7 @@ type Msg = {
 
 export default function IoTLabPage() {
   // ======= CONFIG BÁSICA =======
-  const [brokerUrl, setBrokerUrl] = React.useState<string>("wss://broker.hivemq.com:8000/mqtt");
+  const [brokerUrl, setBrokerUrl] = React.useState<string>("wss://broker.hivemq.com:8884/mqtt");
   const [subTopic, setSubTopic] = React.useState<string>("btricode/iot/teste/#");
   const [pubTopic, setPubTopic] = React.useState<string>("btricode/iot/teste/command");
   const [pubPayload, setPubPayload] = React.useState<string>(
